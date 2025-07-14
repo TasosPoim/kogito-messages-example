@@ -1,6 +1,6 @@
 package org.acme.suppliers;
 
-import io.smallrye.reactive.messaging.providers.connectors.InMemorySink;
+import io.smallrye.reactive.messaging.memory.InMemorySink;
 import java.util.function.Supplier;
 
 public class HasReceivedMessagesSupplier implements Supplier<Boolean> {
