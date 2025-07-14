@@ -1,0 +1,16 @@
+{
+  "specversion": "1.0",
+  "id": "50c49bab-73f3-4d94-a0fc-c1b562d2d00b",
+  "source": "/process/helmEngineActivationProcess",
+  "type": "helm-engine-activation",
+  "time": "2024-06-21T13:55:36.418221741+03:00",
+  "kogitoproctype": "BPMN",
+  "kogitoprocinstanceid": "5213faaf-5151-459c-b185-18f3e3bfa842",
+  "kogitoprocist": "Active",
+  "kogitoprocversion": "1.0",
+  "kogitoprocid": "helmEngineActivationProcess",
+  "data": {
+    "serviceId": "ecc4345a-2097-4c3b-a40c-a9e791cdccbb",
+    "state": "INACTIVE"
+  }
+}

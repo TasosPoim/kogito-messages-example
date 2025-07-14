@@ -1,0 +1,10 @@
+{
+  "id" : "8f82748e-eec2-4726-8b7d-a9643fc77a4f",
+  "source" : "",
+  "type" : "tmf-service-activation",
+  "specversion" : "1.0",
+  "data" : {
+    "serviceId" : "ecc4345a-2097-4c3b-a40c-a9e791cdccbb",
+    "state" : "INACTIVE"
+  }
+}
