@@ -5,7 +5,6 @@ import com.google.gson.JsonParser;
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.Uni;
 import io.smallrye.reactive.messaging.providers.connectors.InMemorySink;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.time.Duration;
@@ -66,16 +65,5 @@ public final class TestHelpers {
     public static JsonObject getJsonObjectFromFileReader(String fileSubdirectory, String fileName)
             throws FileNotFoundException {
         return JsonParser.parseReader(getFileReader(fileSubdirectory, fileName)).getAsJsonObject();
-    }
-
-    public static JsonObject getJsonObjectFromFileReader(String... subdirectory)
-            throws FileNotFoundException {
-        return JsonParser.parseReader(getFileReader(subdirectory)).getAsJsonObject();
-    }
-
-    @NotNull
-    private static FileReader getFileReader(String... fileSubdirectory) throws FileNotFoundException {
-        File file = FileUtils.getFile(FileUtils.getFile(SRC, TEST, RESOURCES), fileSubdirectory);
-        return new FileReader(file);
     }
 }
