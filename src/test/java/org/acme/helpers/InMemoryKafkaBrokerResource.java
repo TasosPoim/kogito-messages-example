@@ -5,7 +5,7 @@ import static org.constants.KogitoConstants.HELM_ENGINE_ACTIVATION_RESULT;
 import static org.constants.KogitoConstants.TMF_SERVICE_ACTIVATION;
 
 import io.quarkus.test.common.QuarkusTestResourceLifecycleManager;
-import io.smallrye.reactive.messaging.providers.connectors.InMemoryConnector;
+import io.smallrye.reactive.messaging.memory.InMemoryConnector;
 import java.util.HashMap;
 import java.util.Map;
 
